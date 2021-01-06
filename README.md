@@ -1,4 +1,4 @@
-#Rafael M.
+# Rafael M.
 For converting obj to ply use this website https://anyconv.com/obj-to-ply-converter/
 ICP  distance threshold, at icp.py change line 29
 NICP distance threshold, at nicp.py change line 120
