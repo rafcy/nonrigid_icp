@@ -1,9 +1,12 @@
-# Rafael M.
+### Todos 
 For converting obj to ply use this website https://anyconv.com/obj-to-ply-converter/
 ICP  distance threshold, at icp.py change line 29
 NICP distance threshold, at nicp.py change line 120
 
-
+Libraries that need to be checked:
+  - Menpo3d menpo3d/menpo3d/correspond/nicp.py 
+  - Pycpd   https://pypi.org/project/pycpd/. 
+  - Trimesh/Trimesh3d (?) 
 # nricp
 
 This repository is an implementation of  Optimal Step Nonrigid ICP Algorithms for Surface Registration
