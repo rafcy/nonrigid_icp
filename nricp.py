@@ -117,8 +117,9 @@ def nonrigidIcp(sourcemesh,targetmesh):
             matches = target_vertices[indices]
             
             #rigtnow setting threshold manualy, but if we have and landmark info we could set here
-            mismatches = np.where(distances>0.02)[0]
-            
+            mismatches = np.where(distances>1.2)[0]
+            # mismatches = np.where(distances>0.02)[0]
+
             
             if normalWeighting:
                 normalsTransformed = DN*X

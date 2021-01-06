@@ -8,9 +8,11 @@ from nricp import nonrigidIcp
 
 
 #read source file
-    
-sourcemesh = o3d.io.read_triangle_mesh("data/source_test.obj")
-targetmesh = o3d.io.read_triangle_mesh("data/target_half.obj")
+
+targetmesh = o3d.io.read_triangle_mesh("data/exp_b.ply")
+sourcemesh = o3d.io.read_triangle_mesh("data/male_0001.ply")
+# sourcemesh = o3d.io.read_triangle_mesh("data/source_test.obj")
+# targetmesh = o3d.io.read_triangle_mesh("data/target_half.obj")
 sourcemesh.compute_vertex_normals()
 targetmesh.compute_vertex_normals()
 

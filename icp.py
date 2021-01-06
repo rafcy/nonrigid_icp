@@ -26,7 +26,8 @@ def icp(source,target,trans_init=np.eye(4)):
     targetply.normals = targetmesh.vertex_normals
     
     
-    threshold = 0.02
+    threshold = 1.0
+    # threshold = 0.02
     reg_p2p = o3d.registration.registration_icp(
             sourceply, targetply, threshold, trans_init,
             o3d.registration.TransformationEstimationPointToPlane())
